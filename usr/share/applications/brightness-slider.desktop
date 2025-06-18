@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Brightness Slider
+Exec=brightness-slider
+Icon=preferences-system-brightness
+Type=Application
+Categories=Utility;
+Comment=A simple brightness control GUI
+Terminal=false

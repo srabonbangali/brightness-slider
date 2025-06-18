@@ -1,20 +1,21 @@
 # Brightness Slider
 
-A simple GTK-free Python GUI app using Tkinter to adjust screen brightness via `xrandr`.
-
-## Features
-- Brightness slider (1–10)
-- Uses Python 3 and Tkinter
-- .deb installable
-- Lightweight and fast
+A simple Python GUI to adjust screen brightness using xrandr.
 
 ## Requirements
-
 - Python 3
-- Tkinter (`python3-tk`)
-- xrandr
+- python3-tk
+- x11-xserver-utils
 
 ## Run Manually
 
 ```bash
 python3 brightness-slider
+```
+
+## Build .deb Package
+
+```bash
+bash build.sh
+sudo dpkg -i brightness-slider_1.0_all.deb
+```

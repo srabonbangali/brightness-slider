@@ -1,0 +1,8 @@
+Package: brightness-slider
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3, python3-tk, x11-xserver-utils
+Maintainer: Shishu <you@example.com>
+Description: A simple Python GUI app to control screen brightness using xrandr
